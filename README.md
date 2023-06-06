@@ -1,13 +1,17 @@
-# Movie Recommendation System
-This project is a Movie Recommendation System developed as a task for a Machine Learning internship. It provides personalized movie recommendations based on user preferences.
+# Machine Learning Internship Project: Movie Recommendation System
+
+This project is part of a machine learning internship and involves the development of a movie recommendation system using collaborative filtering techniques.
+
+## Description
+
+The movie recommendation system is designed to provide personalized movie recommendations to users based on their ratings and preferences. It utilizes collaborative filtering, which analyzes user ratings to identify similar users and suggest movies that they have rated highly. The system aims to improve user engagement and satisfaction by suggesting relevant and interesting movies.
 
 ## Features
-- User-friendly GUI interface for easy interaction
-- Utilizes a movie dataset for recommendations
-- TF-IDF vectorization and cosine similarity algorithms for accurate recommendations
 
-## Dataset
-The Movie Recommendation System uses a comprehensive movie dataset containing information about movie titles and genres. This dataset serves as the foundation for generating accurate recommendations based on user preferences.
+- User-friendly GUI: The recommendation system includes a graphical user interface (GUI) built using Tkinter. Users can easily enter the name of a movie and rate it on a scale of 1 to 5.
+
+- Collaborative Filtering: The system uses collaborative filtering techniques to calculate similarity scores between users and identify movies that other similar users have rated highly.
+
+- Dynamic Recommendations: After submitting a movie rating, a new window opens automatically, displaying a list of recommended movies based on the user's ratings and preferences.
 
 
-This project demonstrates the application of Machine Learning techniques in building recommendation systems and showcases the ability to leverage data to provide personalized movie suggestions.
